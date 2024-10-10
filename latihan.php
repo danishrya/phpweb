@@ -28,6 +28,20 @@ $numbers2 = [
         .clear{
             clear: both;
         }
+        .kotak{
+            padding: 10px;
+            background-color: orange;
+            float: left;
+            color: white;
+            text-align: center;
+            line-height: 5px;
+            margin-right: 5px;
+            transition: 1s;
+        }
+        .kotak:hover{
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
